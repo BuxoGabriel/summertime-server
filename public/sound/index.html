@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Thinking Of U</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Thinking of U</h1>
+    <div class="onlineUserList">
+        <h2>Online Users:</h2>
+        <ul id="onlineUsers"></ul>
+    </div>
+    <div id="loginForm">
+        <h2>You are not logged in</h2>
+        <label for="username">username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <button id="login">Login</button>
+    </div>
+
+    <div>
+        <h2>Click on an online user to send sound</h2>
+        <label for="soundSelect">Choose a sound to send:</label>
+        <select name="soundSelect" id="soundSelect">
+            <option value="clown">🤡</option>
+            <option value="duck">🦆</option>
+            <option value="goofy">🍌</option>
+        </select>
+    </div>
+    
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</body>
