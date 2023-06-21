@@ -1,4 +1,4 @@
-const socket = io("ws://summertime-server-production.up.railway.app:5000")
+const socket = io("https://summertime-server-production.up.railway.app:5000")
 
 const form = document.getElementById("sendMsg")
 const message = document.getElementById("message")

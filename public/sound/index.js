@@ -1,4 +1,4 @@
-const socket = io("ws://summertime-server-production.up.railway.app:4000")
+const socket = io("https://summertime-server-production.up.railway.app:4000")
 let username = ""
 let users = []
 let id = undefined
